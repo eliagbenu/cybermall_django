@@ -1,0 +1,98 @@
+$color_1: #e5f32a;
+$color_2:#fff;
+$color_3:#000;
+$color_4: #da7300;
+
+$top_banner_text:"dragon_is_coming";
+
+$text_family_1:"Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+$text_family_2: monospace, serif;
+
+body{
+  background: url('../images/pw_maze_white.png');
+
+  a{
+    color:$color_4;
+  }
+}
+
+.navbar{
+background: $color_3;
+}
+
+.navbar-default{
+background: $color_2;
+}
+
+
+@font-face
+{
+font-family: $top_banner_text;
+
+src: url(Silent_Reaction.ttf);
+}
+
+.custom_text{
+  font-family:$top_banner_text;
+  font-size:30px;
+  color:$color_2;
+}
+
+.site_banner{
+  color:$color_4;
+  background: $color_2;
+}
+
+
+
+.bs-sidebar .nav > .active > ul {
+  display: block;
+  margin-bottom: 8px;
+  background: $color_2;
+}
+
+
+.push_content_down{
+  margin-top:40px;
+}
+
+
+.top_brands_div{
+  h3{
+    color: $color_4;
+  }
+  hr{
+    color: $color_3;
+    border:solid $color_3 1px;
+  }
+}
+
+.buy_item{
+  min-height: 100px;
+  background: $color_2;
+}
+
+.cybermall-intro{
+  background: $color_2;
+  color:$color_4;
+  span{
+    color: $color_3;
+    text-decoration: underline;
+  }
+}
+
+.footer-cybermall{
+  font-family: $text_family_2;
+  margin-top: 10px;
+  margin-bottom:-40px;
+
+  background: $color_4;
+  text:$color_2;
+
+  h4{
+    color:$color_2;
+  }
+  table tr td,table tr td a{
+    color:$color_2;
+  }
+}

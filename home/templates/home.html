@@ -1,0 +1,205 @@
+{% extends 'base.html' %}
+
+{% block additional_js_files %}
+        <script src="{{STATIC_URL }}custom/js/home_page.js"></script>
+{% endblock %}
+
+{% block title %}
+Welcome : Cybermall
+{% endblock %}
+
+{% block intro_on_cybermall %}
+
+<div class="row push_content_down">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+
+        <div class="jumbotron cybermall-intro">
+           <h2>Hello Ghana,</h2>
+        <p>
+        Cybermall GH is an online store where you make purchases and see them delivered in <span>record time</span> to you.
+        We would consistently live by our mantra to give the <span>best customer experience</span> possible
+        </p>
+
+        </div>
+
+    </div>
+    <div class="col-md-1">
+    </div>
+</div>
+
+{% endblock intro_on_cybermall %}
+
+{% block all_top_brands %}
+
+<div class="row top_brands_div">
+    <div class="col-md-1">
+    </div>
+
+    <div class="col-md-10">
+
+        <!-- COMPUTERS  START -->
+        <div class="row">
+            <div class="col-md-6"><h3> Top Selling Computers</h3> </div>
+            <div class="col-md-6"><i class="fa fa-laptop fa-3x"></i> <hr/> </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 buy_item">
+                Dell 2833
+
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/dell-2854.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                HP 5429
+
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/hp-5429.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                HP 8986
+
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/hp-8986.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                Dell 2854
+
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/dell-2854.jpg" />
+            </div>
+        </div>
+
+        <!-- COMPUTERS END  -->
+
+        <!-- PHONES  START -->
+        <div class="row push_content_down">
+            <div class="col-md-6"><h3> Top Selling Phones</h3> </div>
+            <div class="col-md-6"><i class="fa fa-mobile-phone fa-3x"></i> <hr/> </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 buy_item">
+                Nokia
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/nokia.jpg" />
+            </div>
+
+            <div class="col-md-3 buy_item">
+                Samsung 2007
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/samsung-2007.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                Samsung 3195
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/samsung-3195.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                Samsung 2007
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/samsung-2007.jpg" />
+            </div>
+        </div>
+
+        <!-- PHONES END  -->
+
+        <!-- HOME APPLIANCES  START -->
+        <div class="row push_content_down">
+            <div class="col-md-6"><h3> Top Selling Home Appliances</h3> </div>
+            <div class="col-md-6"><i class="fa fa-home fa-3x"></i> <hr/> </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3 buy_item">
+                Blender
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/blender.jpg" />
+            </div>
+
+            <div class="col-md-3 buy_item">
+                Water heater
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/water-heater.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                LG-Fridge
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/lg-fridge.jpg" />
+            </div>
+            <div class="col-md-3 buy_item">
+                ScanFrost
+                <div class="buy_icon">
+                    <a href="#">
+                    Buy item
+                    </a>
+                </div>
+
+                <img src="{{ STATIC_URL }}custom/images/scanfrost.jpg" />
+            </div>
+        </div>
+
+        <!-- HOME APPLIANCES END  -->
+    </div>
+
+    <div class="col-md-1">
+    </div>
+</div>
+
+{% endblock all_top_brands %}

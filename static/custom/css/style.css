@@ -1,0 +1,59 @@
+body {
+  background: url("../images/pw_maze_white.png"); }
+  body a {
+    color: #da7300; }
+
+.navbar {
+  background: black; }
+
+.navbar-default {
+  background: white; }
+
+@font-face {
+  font-family: "dragon_is_coming";
+  src: url(Silent_Reaction.ttf); }
+
+.custom_text {
+  font-family: "dragon_is_coming";
+  font-size: 30px;
+  color: white; }
+
+.site_banner {
+  color: #da7300;
+  background: white; }
+
+.bs-sidebar .nav > .active > ul {
+  display: block;
+  margin-bottom: 8px;
+  background: white; }
+
+.push_content_down {
+  margin-top: 40px; }
+
+.top_brands_div h3 {
+  color: #da7300; }
+.top_brands_div hr {
+  color: black;
+  border: solid black 1px; }
+
+.buy_item {
+  min-height: 100px;
+  background: white; }
+
+.cybermall-intro {
+  background: white;
+  color: #da7300; }
+  .cybermall-intro span {
+    color: black;
+    text-decoration: underline; }
+
+.footer-cybermall {
+  font-family: monospace, serif;
+  margin-top: 10px;
+  margin-bottom: -40px;
+  background: #da7300;
+  text: white; }
+  .footer-cybermall h4 {
+    color: white; }
+  .footer-cybermall table tr td, .footer-cybermall table tr td a {
+    color: white; }
